@@ -1,0 +1,7 @@
+{
+  "name": "TamSal - Flooring & Wall Solutions",
+  "description": "Specialized construction material store in Bishkek, Kyrgyzstan, featuring PVC panels, laminate, linoleum, and professional installation materials.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
