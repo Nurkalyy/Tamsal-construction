@@ -1,5 +1,5 @@
 
-export type Language = 'en' | 'ky' | 'ru';
+export type Language = 'en' | 'kg' | 'ru';
 
 export interface Product {
   id: string;
@@ -24,7 +24,8 @@ export enum Page {
   Home = 'home',
   Catalog = 'catalog',
   Contact = 'contact',
-  Calculator = 'calculator'
+  Calculator = 'calculator',
+  PartnerRegister = 'partner-register'
 }
 
 export interface Message {

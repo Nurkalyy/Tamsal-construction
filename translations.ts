@@ -53,8 +53,10 @@ export const translations: Record<Language, any> = {
       call: 'Call Branch',
       delivery_title: 'Delivery Across Bishkek',
       delivery_desc: 'We deliver to all districts: Leninskiy, Oktyabrskiy, Pervomayskiy, Sverdlovskiy, and Chuy region suburbs.',
-      check_next: 'Next-day Delivery',
-      check_bulk: 'Bulk Discounts',
+      next_day_title: 'Next-day Delivery',
+      next_day_desc: 'Order before 4:00 PM to receive your materials the very next day. Our dedicated fleet ensures timely arrival at your construction site.',
+      bulk_title: 'Bulk Order Discounts',
+      bulk_desc: 'Planning a large project? We offer special pricing for orders over 100 sq.m. Contact our sales team for a personalized quote.',
       quick_tip: 'Interactive Map',
       tip_desc: 'Select a location on the left to see it on the map. You can use 2GIS or Google Maps for navigation.'
     },
@@ -76,6 +78,24 @@ export const translations: Record<Language, any> = {
       terms: 'Terms of Service',
       seismic: 'Quality Standards'
     },
+    partner: {
+      title: 'Partner with TamSal',
+      subtitle: 'Join our network of professional installers and contractors in Bishkek.',
+      company: 'Company Name',
+      contact: 'Contact Person',
+      phone: 'Phone Number',
+      email: 'Email Address',
+      type: 'Business Type',
+      type_installer: 'Professional Installer',
+      type_contractor: 'General Contractor',
+      type_retailer: 'Retailer',
+      type_designer: 'Interior Designer',
+      message: 'Briefly describe your business',
+      submit: 'Apply for Partnership',
+      success_title: 'Application Received!',
+      success_desc: 'Thank you for your interest. Our partnership manager will contact you within 24 hours to discuss terms and wholesale pricing.',
+      back: 'Back to Home'
+    },
     ai: {
       welcome: "Hello! I'm TamSal's AI expert. How can I help you with your flooring or paneling project today?",
       header: "TamSal Assistant",
@@ -84,7 +104,7 @@ export const translations: Record<Language, any> = {
       fact_check: "Fact-checked with Google"
     }
   },
-  ky: {
+  kg: {
     nav: { home: 'Башкы бет', materials: 'Материалдар', estimator: 'Эсептегич', locations: 'Даректер', partner: 'Өнөктөш кирүү' },
     hero: {
       tagline: 'Кыргызстандагы алдыңкы жеткирүүчү',
@@ -135,8 +155,10 @@ export const translations: Record<Language, any> = {
       call: 'Чалуу',
       delivery_title: 'Бишкек боюнча жеткирүү',
       delivery_desc: 'Биз бардык райондорго: Ленин, Октябрь, Биринчи Май, Свердлов жана Чүй облусунун четки аймактарына жеткиребиз.',
-      check_next: 'Эртеси күнү жеткирүү',
-      check_bulk: 'Дүң арзандатуулар',
+      next_day_title: 'Эртеси күнү жеткирүү',
+      next_day_desc: 'Материалдарды кийинки күнү алуу үчүн саат 16:00гө чейин заказ бериңиз. Биздин автопарк курулуш аянтыңызга өз убагында жеткирүүнү камсыздайт.',
+      bulk_title: 'Дүң арзандатуулар',
+      bulk_desc: 'Чоң долбоорду пландап жатасызбы? 100 кв.м ашкан заказдар үчүн атайын бааларды сунуштайбыз. Жеке сунуш алуу үчүн биздин сатуу бөлүмүнө кайрылыңыз.',
       quick_tip: 'Интерактивдүү карта',
       tip_desc: 'Картадан көрүү үчүн сол тараптагы даректи тандаңыз. 2GIS же Google Maps аркылуу жол алсаңыз болот.'
     },
@@ -157,6 +179,24 @@ export const translations: Record<Language, any> = {
       privacy: 'Купуялык саясаты',
       terms: 'Колдонуу шарттары',
       seismic: 'Сапат стандарттары'
+    },
+    partner: {
+      title: 'TamSal менен өнөктөш болуңуз',
+      subtitle: 'Бишкектеги кесипкөй орнотуучулар жана подрядчылар тармагына кошулуңуз.',
+      company: 'Компаниянын аталышы',
+      contact: 'Байланышуучу адам',
+      phone: 'Телефон номери',
+      email: 'Электрондук почта',
+      type: 'Бизнес түрү',
+      type_installer: 'Кесипкөй орнотуучу',
+      type_contractor: 'Жалпы подрядчы',
+      type_retailer: 'Чекене сатуучу',
+      type_designer: 'Интерьер дизайнери',
+      message: 'Бизнесиңиз жөнүндө кыскача айтып бериңиз',
+      submit: 'Өнөктөштүккө арыз берүү',
+      success_title: 'Арыз кабыл алынды!',
+      success_desc: 'Кызыгууңуз үчүн рахмат. Биздин менеджер 24 сааттын ичинде сиз менен байланышып, дүң бааларды жана шарттарды талкуулайт.',
+      back: 'Башкы бетке кайтуу'
     },
     ai: {
       welcome: "Саламатсызбы! Мен TamSal'дын экспертимин. Бүгүн пол же ПВХ панелдери боюнча сизге кантип жардам бере алам?",
@@ -217,8 +257,10 @@ export const translations: Record<Language, any> = {
       call: 'Позвонить',
       delivery_title: 'Доставка по Бишкеку',
       delivery_desc: 'Мы доставляем во все районы: Ленинский, Октябрьский, Первомайский, Свердловский и пригороды.',
-      check_next: 'Доставка на следующий день',
-      check_bulk: 'Оптовые скидки',
+      next_day_title: 'Доставка на следующий день',
+      next_day_desc: 'Сделайте заказ до 16:00, чтобы получить материалы уже на следующий день. Наш автопарк гарантирует своевременное прибытие на ваш объект.',
+      bulk_title: 'Оптовые скидки',
+      bulk_desc: 'Планируете крупный проект? Мы предлагаем специальные цены для заказов свыше 100 кв.м. Свяжитесь с отделом продаж для получения КП.',
       quick_tip: 'Интерактивная карта',
       tip_desc: 'Выберите филиал слева, чтобы увидеть его на карте. Используйте 2GIS или Google Карты для навигации.'
     },
@@ -239,6 +281,24 @@ export const translations: Record<Language, any> = {
       privacy: 'Политика конфиденциальности',
       terms: 'Условия использования',
       seismic: 'Стандарты качества'
+    },
+    partner: {
+      title: 'Станьте партнером TamSal',
+      subtitle: 'Присоединяйтесь к нашей сети профессиональных монтажников и подрядчиков в Бишкеке.',
+      company: 'Название компании',
+      contact: 'Контактное лицо',
+      phone: 'Номер телефона',
+      email: 'Электронная почта',
+      type: 'Тип бизнеса',
+      type_installer: 'Профессиональный монтажник',
+      type_contractor: 'Генеральный подрядчик',
+      type_retailer: 'Розничный продавец',
+      type_designer: 'Дизайнер интерьера',
+      message: 'Кратко опишите ваш бизнес',
+      submit: 'Подать заявку',
+      success_title: 'Заявка получена!',
+      success_desc: 'Спасибо за интерес к партнерству. Наш менеджер свяжется с вами в течение 24 часов для обсуждения условий и оптовых цен.',
+      back: 'На главную'
     },
     ai: {
       welcome: "Здравствуйте! Я ИИ-эксперт TamSal. Чем я могу помочь вам в подборе ламината или ПВХ панелей сегодня?",

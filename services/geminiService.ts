@@ -6,7 +6,7 @@ import { PRODUCTS } from "../constants";
 export const consultGemini = async (prompt: string, history: {role: 'user' | 'model', parts: {text: string}[]}[], lang: Language) => {
   try {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-    const langNames = { en: 'English', ky: 'Kyrgyz', ru: 'Russian' };
+    const langNames = { en: 'English', kg: 'Kyrgyz', ru: 'Russian' };
     
     const response = await ai.models.generateContent({
       model: 'gemini-2.5-flash',
@@ -46,7 +46,7 @@ export const consultGemini = async (prompt: string, history: {role: 'user' | 'mo
 export const calculateMaterials = async (projectType: string, dimensions: string, lang: Language): Promise<EstimationResult | null> => {
   try {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-    const langNames = { en: 'English', ky: 'Kyrgyz', ru: 'Russian' };
+    const langNames = { en: 'English', kg: 'Kyrgyz', ru: 'Russian' };
     
     // Provide catalog context for ID matching
     const catalogContext = PRODUCTS.map(p => ({
